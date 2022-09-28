@@ -55,7 +55,7 @@ section {
 */
 
 .logo {
-    width: 6%;
+    width: 20%;
     border: 0px dotted hotpink;
     margin: 0px;
     padding: 16px;
@@ -64,11 +64,12 @@ section {
 
 .logo:hover {
     transform: rotate(90deg);
+    /*
     display: block;
     margin: 0px;
     padding: 18px;
     transition: all 1s;
-
+    */
     /*  top: -15%;
     left: -5%;
     overflow: auto;
@@ -79,13 +80,21 @@ section {
 .component {
     position: relative;
     text-align: center;
-    color: #D74177;
+    /*
+    color: #D74177;*/
 }
 
 .component>div {
     position: absolute;
-    top: 30%;
-    max-width: 600px;
+    top: 10%;
+    left: 30%;
+    max-width: 800px;
+}
+
+.component>div>img {
+    position: relative;
+    top: 0%;
+    left: -130%;
 }
 
 .logoCover {
@@ -95,4 +104,43 @@ section {
 
 iframe {
     min-height: 100vh;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#orange {
+    background-color: orange;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#green {
+    background-color: yellowgreen;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#blueglass {
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
