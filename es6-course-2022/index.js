@@ -119,6 +119,7 @@ for ( const text of textBlock ) {
 Using the For of Loop, iterate through the array an print into the console, a message like:
 // Tom lives in Lisbon */
 
+/*
 const students = [
     { name: "John", city: "New York" },
     { name: "Peter", city: "Paris" },
@@ -132,5 +133,33 @@ for ( const student in students ) {
     /*Better solution 
     console.log( student.name + " lives in " + student.city );
     //Combined solution
-    console.log( `${ student.name } lives in ${ student.city }` );*/
-}
+    console.log( `${ student.name } lives in ${ student.city }` );
+}*/
+
+/*
+// personalFriends referenced.....
+let contacts = [ 'Lamar', 'X', 'Y' ];
+
+let personalFriends = contacts;
+
+contacts.push( 'John' );
+console.log( personalFriends );
+
+// personalFriends copied.....
+
+let friends = [ 'Chris', 'Sam', 'Tony' ]
+
+let personalBuddies = [ ...friends ]; //Spread Operator
+
+friends.push( 'Lamar' );
+console.log( friends );
+console.log( personalBuddies );
+*/
+
+//Spread operator Challenge 
+
+const shoppingList = [ 'eggs', 'milk,', 'butter' ];
+
+const shoppingBasket = [ 'flour', 'cereal', 'bananas', ...shoppingList ];
+console.log( shoppingBasket );
+
