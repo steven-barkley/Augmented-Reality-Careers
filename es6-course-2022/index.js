@@ -156,10 +156,74 @@ console.log( friends );
 console.log( personalBuddies );
 */
 
-//Spread operator Challenge 
+/*Spread operator Challenge 
 
 const shoppingList = [ 'eggs', 'milk,', 'butter' ];
 
 const shoppingBasket = [ 'flour', 'cereal', 'bananas', ...shoppingList ];
-console.log( shoppingBasket );
+let content = [ ...shoppingBasket ];
+
+
+function add( nums ) {
+    let content = [ ...arguments ];
+    document.getElementById( 'printBox' ).innerHTML = content;
+}
+
+add( 0, 3, 6, 7, 8, 12, 1 )
+
+function subtract( numbers ) {
+    let stuff = [ ...arguments ];
+    document.getElementById( 'printBox2' ).innerHTML = stuff;
+}
+
+subtract( 32, 12, 95, 3, 0, 32 )
+//document.getElementById( 'printBox' ).innerHTML = content;
+*/
+
+
+/*
+function breakfastMenu() {
+    return "I'm going to eat scrambled eggs for breakfast";
+}
+
+const lunchMenu = function () {
+    return "I'm going to eat pizza for lunch";
+}
+
+const dinnerMenu = food => `I'm going to eat a ${ food } for dinner`;
+
+let content = dinnerMenu( "Chicken Salad" );
+
+document.getElementById( 'printBox' ).innerHTML = content;
+
+const leadSinger = ( artist = "Someone" ) => {
+    document.getElementById( 'printBox' ).innerHTML = `${ artist }`;
+}
+
+leadSinger();
+leadSinger( "Justin Timberlake" );
+
+
+
+const groceryShop = ( produce = "something" ) => {
+    document.getElementById( 'printBox' ).innerHTML = `I am going to buy ${ produce } from the grocery shop`;
+}
+
+groceryShop( "milk" );
+// Output "I am going to buy milk from the grocery shop." 
+*/
+
+/*
+const ListIngredients = [ "flour", "sugar", "eggs", "butter", "chocolate" ];
+
+let chocolate;
+chocolate = ListIngredients.includes( "chocolate" );
+
+if ( chocolate == true ) {
+    document.getElementById( 'printBox' ).innerHTML = "Let's make a Cake";
+}
+else {
+    document.getElementById( 'printBox' ).innerHTML = "Need to go shopping again";
+}
+*/
 
