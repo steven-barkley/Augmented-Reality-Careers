@@ -1,3 +1,9 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url(./CursedTimerUlil-Aznm.ttf);
+}
+
+/* Special thanks to "heaven castro" @fontspace.com */
 body {
     margin: 0;
 }
@@ -5,4 +11,38 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 500px;
+    border-radius: 2.44%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 300px;
+    min-width: 250px;
+}
+
+div>h3 {
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+div>p {
+    position: relative;
+    color: red;
+    background-color: black;
+    font-family: "CursedTimer", sans-serif;
+    font-size: 40px;
+    /*    padding: 40px 0px 0px 0px; */
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px 0 5px 0;
+}
+
+div>button {
+    color: lightblue;
+    background-color: transparent;
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    font-family: "CursedTimer", sans-serif;
+    margin: 10px 0 20px 0;
 }
