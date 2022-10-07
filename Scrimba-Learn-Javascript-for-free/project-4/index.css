@@ -1,3 +1,50 @@
+@font-face {
+    font-family: Blackjack;
+    src: url(./lounge-bait-font/LoungeBait-JpVa.ttf);
+}
+
+@font-face {
+    font-family: Blackjack_Cards;
+    src: url(./hoyle-playing-cards-font/HoylePlayingCards-7Oaw.ttf);
+}
+
+body {
+    text-align: center;
+    padding: 5%;
+    background-image: url("./Green_felt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#display {
+    margin-bottom: 100px;
+}
+
 h1 {
     color: goldenrod;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', "Blackjack", 'Franklin Gothic Medium';
+}
+
+#message-el {
+    font-style: italic;
+}
+
+
+p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#btnStart {
+    background-color: goldenrod;
+    color: green;
+    height: 50px;
+    min-width: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2%;
 }

@@ -24,16 +24,20 @@ let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let message = "";
 let isAlive = true;
-
-if ( sum > 21 ) {
-    isAlive = false;
-    message = `${ sum } You bust!!!`;
-} else if ( sum === 21 ) {
-    hasBlackJack = true;
-    message = `${ sum }. You got Blackjack!`
-} else {
-    message = `${ sum }. Hit or stay?`
+// 2. Create a startGame() function. Move the conditional
+// below (line 28-39) inside the body of the function.
+function startGame() {
+    if ( sum > 21 ) {
+        isAlive = false;
+        message = `${ sum } You bust!!!`;
+    } else if ( sum === 21 ) {
+        hasBlackJack = true;
+        message = `${ sum }. You got Blackjack!`
+    } else {
+        message = `${ sum }. Hit or stay?`
+    }
+    // if less than 21 -> "You can not enter the club!"
+    // else            -> "Welcome!"
+    console.log( message );
 }
-// if less than 21 -> "You can not enter the club!"
-// else            -> "Welcome!"
-console.log( message );
+
