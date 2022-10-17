@@ -13,8 +13,8 @@ The UI Designer will work as a part of YETI’s award-winning Creative Studio te
 *Position Type (See Workplace Approach Below): Hybrid
 
 *Responsibilities:
-
-*Gather and evaluate user requirement in collaboration with UX Designer and development teams
+<ul>
+<li>Gather and evaluate user requirement in collaboration with UX Designer and development teams</li>
 *Translate abstract ideas and requirements into tangible and beautiful design deliverables
 *Design clean visual designs through a sophisticated sense of image curation, color, typography and layout
 *Ensuring consistency of brand and creative across digital consumer touch points
@@ -22,7 +22,7 @@ The UI Designer will work as a part of YETI’s award-winning Creative Studio te
 *Conduct layout adjustment based on user feedback
 *Design with an awareness understanding of browser sizes, devices capabilities, and product functionally
 *Help ensure design accuracy within the development process through QA and development feedback work streams
- 
+ <ul>
 
 *Qualifications and Attributes:
 
