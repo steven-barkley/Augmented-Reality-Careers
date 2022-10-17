@@ -15,13 +15,13 @@ The UI Designer will work as a part of YETI’s award-winning Creative Studio te
 *Responsibilities:
 <ul>
 <li>Gather and evaluate user requirement in collaboration with UX Designer and development teams</li>
-*Translate abstract ideas and requirements into tangible and beautiful design deliverables
-*Design clean visual designs through a sophisticated sense of image curation, color, typography and layout
-*Ensuring consistency of brand and creative across digital consumer touch points
-*Develop UI mockups and protypes that clearly illustrate how digital products function and look like
-*Conduct layout adjustment based on user feedback
-*Design with an awareness understanding of browser sizes, devices capabilities, and product functionally
-*Help ensure design accuracy within the development process through QA and development feedback work streams
+ <li>Translate abstract ideas and requirements into tangible and beautiful design deliverables</li>
+<li>Design clean visual designs through a sophisticated sense of image curation, color, typography and layout</li>
+ <li>Ensuring consistency of brand and creative across digital consumer touch points</li>
+<li>Develop UI mockups and protypes that clearly illustrate how digital products function and look like<li>
+ <li>Conduct layout adjustment based on user feedback</li>
+<li>Design with an awareness understanding of browser sizes, devices capabilities, and product functionally</li>
+<li>Help ensure design accuracy within the development process through QA and development feedback work streams</li>
  <ul>
 
 *Qualifications and Attributes:
