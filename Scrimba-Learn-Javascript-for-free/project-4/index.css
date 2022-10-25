@@ -42,10 +42,24 @@ p {
     background-color: goldenrod;
     color: green;
     height: 50px;
-    min-width: 250px;
+    width: 300px;
     font-size: 30px;
     font-weight: bold;
     border: none;
     border-radius: 3px;
     padding: 0px 40px 0px 40px;
+    margin: 10px 0px 0px 10px;
+}
+
+#btnNew {
+    background-color: goldenrod;
+    color: green;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 40px 0px 40px;
+    margin: 10px 0px 0px 10px;
 }

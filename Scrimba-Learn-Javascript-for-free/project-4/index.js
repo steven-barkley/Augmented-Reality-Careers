@@ -18,9 +18,11 @@ if ( sum < 21 ) {
 // Check if the person is old enough to enter the nightclub (21)
 // Log a suitable message to the console in both cases
 let firstCard = 10
-let secondCard = 11
+let secondCard = 1
 
-let sum = firstCard + secondCard;
+let nextCard = 0
+
+let sum = firstCard + secondCard + nextCard;
 let hasBlackJack = false;
 let message = "";
 let isAlive = true;
@@ -29,7 +31,6 @@ let messageEl = document.getElementById( "message-el" );
 let sumEl = document.getElementById( "sum-el" );
 let cardsEl = document.getElementById( "cards-el" );
 
-console.log( cardsEl );
 
 function startGame() {
     if ( sum > 21 ) {
@@ -42,8 +43,15 @@ function startGame() {
         message = `Hit or stay?`
     }
     messageEl.textContent = message
-    cardsEl.innerText += `${ firstCard } ${ secondCard }`
+    cardsEl.innerText += ` ${ firstCard } ${ secondCard }`
     //sumEl.textContent = `Sum: ${ sum }`
-    sumEl.innerText += ` ${ sum }`;
+    sumEl.innerText += ` ${ sum }`
 }
 
+function newCard() {
+    nextCard = 8
+    sum += nextCard
+    sumEl.textContent = `Sum: ${ sum }`
+    messageEl.textContent = "Drawing a new card from the deck!"
+    cardsEl.innerText += ` ${ nextCard } `
+}
