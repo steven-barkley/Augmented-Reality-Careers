@@ -54,4 +54,5 @@ function newCard() {
     sumEl.textContent = `Sum: ${ sum }`
     messageEl.textContent = "Drawing a new card from the deck!"
     cardsEl.innerText += ` ${ nextCard } `
+    // startGame(); display the handvalue in messageEl
 }
